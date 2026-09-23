@@ -1,0 +1,46 @@
+Column,Data_Type,Missing_Count,Missing_Percentage,Unique_Values
+Date,string,0,0.0,365
+Time,string,0,0.0,62910
+Booking ID,str,0,0.0,148767
+Booking Status,str,0,0.0,5
+Customer ID,str,0,0.0,148788
+Vehicle Type,str,0,0.0,7
+Pickup Location,str,0,0.0,176
+Drop Location,str,0,0.0,176
+Avg VTAT,float64,10500,7.0,181
+Avg CTAT,float64,48000,32.0,351
+Cancelled Rides by Customer,float64,139500,93.0,1
+Reason for cancelling by Customer,str,139500,93.0,5
+Cancelled Rides by Driver,float64,123000,82.0,1
+Driver Cancellation Reason,str,123000,82.0,4
+Incomplete Rides,float64,141000,94.0,1
+Incomplete Rides Reason,str,141000,94.0,3
+Booking Value,float64,48000,32.0,2566
+Ride Distance,float64,48000,32.0,4901
+Driver Ratings,float64,57000,38.0,21
+Customer Rating,float64,57000,38.0,21
+Payment Method,str,48000,32.0,5
+DateTime,datetime64[us],0,0.0,149532
+Year,int32,0,0.0,1
+Month,int32,0,0.0,12
+Month_Name,str,0,0.0,12
+Day,int32,0,0.0,31
+Day_of_Week,int32,0,0.0,7
+Day_Name,str,0,0.0,7
+Hour,int32,0,0.0,24
+Is_Weekend,int64,0,0.0,2
+Time_Period,str,0,0.0,5
+Is_Completed,int64,0,0.0,2
+Is_Cancelled,int64,0,0.0,2
+Is_Incomplete,int64,0,0.0,2
+Is_No_Driver_Found,int64,0,0.0,2
+Booking_Outcome,str,0,0.0,5
+Revenue,float64,0,0.0,2520
+Fare_Per_KM,float64,57000,38.0,89195
+Has_Booking_Value,int64,0,0.0,2
+Has_Ride_Distance,int64,0,0.0,2
+Has_Driver_Rating,int64,0,0.0,2
+Has_Customer_Rating,int64,0,0.0,2
+Has_Payment_Method,int64,0,0.0,2
+Has_VTAT,int64,0,0.0,2
+Has_CTAT,int64,0,0.0,2

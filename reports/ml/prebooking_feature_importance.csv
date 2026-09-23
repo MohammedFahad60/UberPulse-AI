@@ -1,0 +1,373 @@
+Feature,Importance
+categorical__Payment Method_UPI,0.436026
+categorical__Payment Method_Cash,0.225024
+categorical__Payment Method_Credit Card,0.105544
+categorical__Payment Method_Uber Wallet,0.099933
+categorical__Payment Method_Debit Card,0.084129
+numeric__Hour,0.003232
+numeric__Day_of_Week,0.002083
+categorical__Vehicle Type_Auto,0.0008
+categorical__Pickup Location_Vinobapuri,0.000787
+categorical__Vehicle Type_Go Sedan,0.000772
+categorical__Time_Period_Morning,0.000718
+categorical__Vehicle Type_Go Mini,0.000671
+numeric__Is_Weekend,0.00062
+categorical__Vehicle Type_Bike,0.000611
+categorical__Time_Period_Evening,0.000579
+categorical__Time_Period_Afternoon,0.000559
+categorical__Time_Period_Late Evening,0.000503
+categorical__Vehicle Type_Premier Sedan,0.000498
+categorical__Vehicle Type_eBike,0.000497
+categorical__Time_Period_Night,0.000436
+categorical__Vehicle Type_Uber XL,0.000348
+categorical__Pickup Location_Akshardham,0.000324
+categorical__Drop Location_Noida Extension,0.00031
+categorical__Drop Location_Govindpuri,0.000274
+categorical__Drop Location_Ghaziabad,0.00026
+categorical__Drop Location_Gurgaon Sector 29,0.000257
+categorical__Drop Location_Dwarka Mor,0.000256
+categorical__Pickup Location_Keshav Puram,0.000234
+categorical__Drop Location_Moolchand,0.000228
+categorical__Drop Location_Preet Vihar,0.000218
+categorical__Pickup Location_Subhash Chowk,0.000206
+categorical__Drop Location_RK Puram,0.000203
+categorical__Drop Location_Tis Hazari,0.000202
+categorical__Pickup Location_Samaypur Badli,0.000201
+categorical__Drop Location_Mayur Vihar,0.000194
+categorical__Drop Location_Kherki Daula Toll,0.000192
+categorical__Drop Location_Aya Nagar,0.000192
+categorical__Drop Location_India Gate,0.00019
+categorical__Drop Location_Kaushambi,0.00019
+categorical__Pickup Location_Kanhaiya Nagar,0.000183
+categorical__Pickup Location_Anand Vihar ISBT,0.000182
+categorical__Drop Location_Sultanpur,0.000177
+categorical__Pickup Location_Vatika Chowk,0.000177
+categorical__Pickup Location_Bhikaji Cama Place,0.000174
+categorical__Drop Location_Noida Film City,0.000173
+categorical__Pickup Location_Greater Noida,0.000173
+categorical__Drop Location_Raj Nagar Extension,0.000168
+categorical__Pickup Location_Badshahpur,0.000167
+categorical__Drop Location_Tughlakabad,0.000167
+categorical__Drop Location_Jor Bagh,0.000166
+categorical__Pickup Location_Satguru Ram Singh Marg,0.000166
+categorical__Pickup Location_Anand Vihar,0.000164
+categorical__Pickup Location_Lok Kalyan Marg,0.000162
+categorical__Pickup Location_Ashok Park Main,0.000162
+categorical__Pickup Location_Pragati Maidan,0.00016
+categorical__Pickup Location_IGI Airport,0.000157
+categorical__Pickup Location_Jama Masjid,0.000154
+categorical__Pickup Location_Welcome,0.000154
+categorical__Drop Location_Bhikaji Cama Place,0.000153
+categorical__Drop Location_Badshahpur,0.000153
+categorical__Drop Location_Kalkaji,0.000149
+categorical__Drop Location_Vasant Kunj,0.000148
+categorical__Pickup Location_IMT Manesar,0.000148
+categorical__Pickup Location_Shivaji Park,0.000147
+categorical__Pickup Location_Mehrauli,0.000145
+categorical__Drop Location_Madipur,0.000144
+categorical__Pickup Location_Udyog Bhawan,0.000143
+categorical__Pickup Location_Panchsheel Park,0.000142
+categorical__Drop Location_Gwal Pahari,0.000142
+categorical__Pickup Location_Subhash Nagar,0.00014
+categorical__Pickup Location_Barakhamba Road,0.000139
+categorical__Drop Location_Shahdara,0.000139
+categorical__Pickup Location_Arjangarh,0.000139
+categorical__Drop Location_Bhiwadi,0.000138
+categorical__Pickup Location_Pataudi Chowk,0.000137
+categorical__Pickup Location_Saket A Block,0.000136
+categorical__Pickup Location_Chhatarpur,0.000136
+categorical__Pickup Location_Paschim Vihar,0.000136
+categorical__Pickup Location_Okhla,0.000136
+categorical__Pickup Location_Sohna Road,0.000135
+categorical__Drop Location_Khandsa,0.000132
+categorical__Pickup Location_Janakpuri,0.000132
+categorical__Drop Location_Rohini,0.000132
+categorical__Pickup Location_Faridabad Sector 15,0.000132
+categorical__Drop Location_Saket A Block,0.000131
+categorical__Pickup Location_Adarsh Nagar,0.00013
+categorical__Pickup Location_MG Road,0.00013
+categorical__Drop Location_Manesar,0.00013
+categorical__Pickup Location_Indirapuram,0.000128
+categorical__Drop Location_Keshav Puram,0.000128
+categorical__Pickup Location_Peeragarhi,0.000127
+categorical__Drop Location_Sikanderpur,0.000125
+categorical__Pickup Location_Rajiv Chowk,0.000125
+categorical__Drop Location_IFFCO Chowk,0.000125
+categorical__Drop Location_Jasola,0.000124
+categorical__Pickup Location_Karol Bagh,0.000124
+categorical__Drop Location_New Colony,0.000124
+categorical__Drop Location_Connaught Place,0.000123
+categorical__Pickup Location_Tilak Nagar,0.000123
+categorical__Pickup Location_Saidulajab,0.000122
+categorical__Pickup Location_Indraprastha,0.000122
+categorical__Pickup Location_GTB Nagar,0.000122
+categorical__Drop Location_South Extension,0.000121
+categorical__Drop Location_Lajpat Nagar,0.00012
+categorical__Pickup Location_AIIMS,0.00012
+categorical__Drop Location_Meerut,0.000119
+categorical__Pickup Location_Jahangirpuri,0.000119
+categorical__Pickup Location_IGNOU Road,0.000118
+categorical__Pickup Location_Gurgaon Railway Station,0.000118
+categorical__Drop Location_Panchsheel Park,0.000118
+categorical__Pickup Location_Laxmi Nagar,0.000117
+categorical__Pickup Location_Sushant Lok,0.000116
+categorical__Drop Location_Ashok Vihar,0.000116
+categorical__Pickup Location_Lal Quila,0.000116
+categorical__Drop Location_Anand Vihar ISBT,0.000115
+categorical__Drop Location_Shastri Nagar,0.000115
+categorical__Drop Location_Cyber Hub,0.000115
+categorical__Drop Location_Ramesh Nagar,0.000115
+categorical__Drop Location_Inderlok,0.000113
+categorical__Drop Location_IGNOU Road,0.000113
+categorical__Drop Location_Green Park,0.000113
+categorical__Pickup Location_Karkarduma,0.000112
+categorical__Pickup Location_Nawada,0.000112
+categorical__Drop Location_IMT Manesar,0.000112
+categorical__Pickup Location_Sultanpur,0.000111
+categorical__Drop Location_Pataudi Chowk,0.000111
+categorical__Drop Location_Narsinghpur,0.000111
+categorical__Pickup Location_Udyog Vihar,0.000111
+categorical__Pickup Location_Madipur,0.00011
+categorical__Drop Location_Jhilmil,0.000109
+categorical__Drop Location_Chhatarpur,0.000109
+categorical__Pickup Location_Saket,0.000109
+categorical__Pickup Location_Aya Nagar,0.000108
+categorical__Drop Location_Delhi Gate,0.000108
+categorical__Drop Location_Gurgaon Railway Station,0.000108
+categorical__Pickup Location_Noida Sector 62,0.000108
+categorical__Drop Location_Vidhan Sabha,0.000108
+categorical__Drop Location_Samaypur Badli,0.000108
+categorical__Pickup Location_Dilshad Garden,0.000107
+categorical__Drop Location_MG Road,0.000107
+categorical__Drop Location_Vatika Chowk,0.000107
+categorical__Pickup Location_Netaji Subhash Place,0.000107
+categorical__Drop Location_Malviya Nagar,0.000106
+categorical__Drop Location_Mandi House,0.000105
+categorical__Drop Location_Basai Dhankot,0.000105
+categorical__Drop Location_Noida Sector 62,0.000105
+categorical__Drop Location_Noida Sector 18,0.000105
+categorical__Pickup Location_Rohini East,0.000104
+categorical__Drop Location_Nehru Place,0.000104
+categorical__Pickup Location_Sadar Bazar Gurgaon,0.000104
+categorical__Drop Location_Rohini West,0.000103
+categorical__Drop Location_Moti Nagar,0.000103
+categorical__Pickup Location_Vidhan Sabha,0.000103
+categorical__Drop Location_Subhash Nagar,0.000103
+categorical__Drop Location_Sohna Road,0.000103
+categorical__Pickup Location_Punjabi Bagh,0.000102
+categorical__Drop Location_Kanhaiya Nagar,0.000102
+categorical__Pickup Location_Rajiv Nagar,0.000102
+categorical__Drop Location_Dwarka Sector 21,0.000102
+categorical__Pickup Location_Mayur Vihar,0.000102
+categorical__Pickup Location_Ashram,0.000101
+categorical__Drop Location_IIT Delhi,0.000101
+categorical__Pickup Location_Delhi Gate,0.000101
+categorical__Drop Location_Udyog Vihar Phase 4,0.0001
+categorical__Drop Location_Rithala,0.0001
+categorical__Pickup Location_Basai Dhankot,0.0001
+categorical__Drop Location_Akshardham,0.0001
+categorical__Drop Location_INA Market,0.0001
+categorical__Drop Location_Sadar Bazar Gurgaon,0.0001
+categorical__Drop Location_Barakhamba Road,0.0001
+categorical__Drop Location_Tagore Garden,0.0001
+categorical__Drop Location_GTB Nagar,9.9e-05
+categorical__Pickup Location_Patel Chowk,9.9e-05
+categorical__Pickup Location_Nehru Place,9.9e-05
+categorical__Drop Location_Chirag Delhi,9.9e-05
+categorical__Drop Location_Khan Market,9.9e-05
+categorical__Drop Location_Subhash Chowk,9.8e-05
+categorical__Drop Location_Punjabi Bagh,9.8e-05
+categorical__Pickup Location_Cyber Hub,9.7e-05
+categorical__Pickup Location_Govindpuri,9.7e-05
+categorical__Pickup Location_Ghitorni Village,9.7e-05
+categorical__Pickup Location_Tughlakabad,9.6e-05
+categorical__Drop Location_Udyog Bhawan,9.6e-05
+categorical__Pickup Location_Chandni Chowk,9.5e-05
+categorical__Drop Location_Central Secretariat,9.5e-05
+categorical__Drop Location_Shivaji Park,9.5e-05
+categorical__Pickup Location_Kalkaji,9.4e-05
+categorical__Pickup Location_Mundka,9.3e-05
+categorical__Drop Location_Botanical Garden,9.3e-05
+categorical__Drop Location_Paschim Vihar,9.3e-05
+categorical__Pickup Location_Hero Honda Chowk,9.3e-05
+categorical__Drop Location_DLF Phase 3,9.3e-05
+categorical__Pickup Location_Uttam Nagar,9.2e-05
+categorical__Pickup Location_Panipat,9.2e-05
+categorical__Pickup Location_Tagore Garden,9.2e-05
+categorical__Drop Location_IGI Airport,9.2e-05
+categorical__Pickup Location_Ambience Mall,9.2e-05
+categorical__Drop Location_Udyog Vihar,9.2e-05
+categorical__Drop Location_Sarojini Nagar,9.2e-05
+categorical__Drop Location_Tilak Nagar,9.1e-05
+categorical__Pickup Location_Kirti Nagar,9.1e-05
+categorical__Drop Location_Ashram,9.1e-05
+categorical__Pickup Location_Moti Nagar,9e-05
+categorical__Pickup Location_Ardee City,9e-05
+categorical__Pickup Location_Jasola,9e-05
+categorical__Pickup Location_Kashmere Gate ISBT,8.9e-05
+categorical__Drop Location_Dilshad Garden,8.9e-05
+categorical__Pickup Location_Pitampura,8.9e-05
+categorical__Drop Location_Kashmere Gate,8.9e-05
+categorical__Drop Location_Badarpur,8.8e-05
+categorical__Drop Location_Anand Vihar,8.8e-05
+categorical__Drop Location_Old Gurgaon,8.8e-05
+categorical__Pickup Location_Huda City Centre,8.7e-05
+categorical__Pickup Location_Kaushambi,8.7e-05
+categorical__Pickup Location_New Colony,8.7e-05
+categorical__Pickup Location_DLF City Court,8.7e-05
+categorical__Drop Location_Paharganj,8.7e-05
+categorical__Drop Location_Ambience Mall,8.6e-05
+categorical__Pickup Location_Rajouri Garden,8.6e-05
+categorical__Drop Location_Pitampura,8.6e-05
+categorical__Pickup Location_IFFCO Chowk,8.6e-05
+categorical__Pickup Location_IIT Delhi,8.6e-05
+categorical__Pickup Location_Preet Vihar,8.6e-05
+categorical__Pickup Location_Azadpur,8.6e-05
+categorical__Drop Location_New Delhi Railway Station,8.6e-05
+categorical__Drop Location_Patel Chowk,8.6e-05
+categorical__Pickup Location_Noida Film City,8.5e-05
+categorical__Drop Location_Jahangirpuri,8.5e-05
+categorical__Pickup Location_Old Gurgaon,8.5e-05
+categorical__Pickup Location_Udyog Vihar Phase 4,8.5e-05
+categorical__Drop Location_Pulbangash,8.5e-05
+categorical__Drop Location_Azadpur,8.4e-05
+categorical__Drop Location_Hauz Khas,8.4e-05
+categorical__Pickup Location_Munirka,8.4e-05
+categorical__Pickup Location_Vasant Kunj,8.4e-05
+categorical__Pickup Location_Hauz Rani,8.3e-05
+categorical__Drop Location_Huda City Centre,8.3e-05
+categorical__Drop Location_Yamuna Bank,8.3e-05
+categorical__Drop Location_DLF City Court,8.3e-05
+categorical__Pickup Location_Vaishali,8.3e-05
+categorical__Pickup Location_Narsinghpur,8.3e-05
+categorical__Drop Location_Vinobapuri,8.3e-05
+categorical__Pickup Location_Mandi House,8.3e-05
+categorical__Pickup Location_Dwarka Sector 21,8.3e-05
+categorical__Drop Location_Ghitorni,8.2e-05
+categorical__Pickup Location_Khandsa,8.2e-05
+categorical__Pickup Location_DLF Phase 3,8.2e-05
+categorical__Pickup Location_Sonipat,8.1e-05
+categorical__Pickup Location_Pulbangash,8.1e-05
+categorical__Pickup Location_Kadarpur,8.1e-05
+categorical__Drop Location_Jama Masjid,8.1e-05
+categorical__Pickup Location_Yamuna Bank,8.1e-05
+categorical__Pickup Location_Botanical Garden,8e-05
+categorical__Drop Location_Kirti Nagar,8e-05
+categorical__Drop Location_Seelampur,8e-05
+categorical__Drop Location_Civil Lines Gurgaon,8e-05
+categorical__Drop Location_Mansarovar Park,8e-05
+categorical__Pickup Location_Maidan Garhi,8e-05
+categorical__Drop Location_Mehrauli,7.9e-05
+categorical__Pickup Location_Jor Bagh,7.9e-05
+categorical__Pickup Location_Ashok Vihar,7.9e-05
+categorical__Pickup Location_Manesar,7.9e-05
+categorical__Pickup Location_Ghaziabad,7.9e-05
+categorical__Drop Location_Golf Course Road,7.9e-05
+categorical__Pickup Location_Golf Course Road,7.8e-05
+categorical__Drop Location_Uttam Nagar,7.7e-05
+categorical__Pickup Location_Vishwavidyalaya,7.7e-05
+categorical__Drop Location_Netaji Subhash Place,7.7e-05
+categorical__Drop Location_AIIMS,7.6e-05
+categorical__Drop Location_Panipat,7.6e-05
+categorical__Drop Location_Lok Kalyan Marg,7.6e-05
+categorical__Pickup Location_Bahadurgarh,7.6e-05
+categorical__Pickup Location_Moolchand,7.5e-05
+categorical__Pickup Location_Tis Hazari,7.5e-05
+categorical__Drop Location_Munirka,7.5e-05
+categorical__Pickup Location_Chirag Delhi,7.5e-05
+categorical__Pickup Location_Civil Lines Gurgaon,7.4e-05
+categorical__Pickup Location_Mansarovar Park,7.4e-05
+categorical__Drop Location_Greater Noida,7.3e-05
+categorical__Drop Location_Shastri Park,7.2e-05
+categorical__Drop Location_Greater Kailash,7.2e-05
+categorical__Drop Location_Sonipat,7.2e-05
+categorical__Drop Location_Indirapuram,7.1e-05
+categorical__Pickup Location_Gurgaon Sector 29,7.1e-05
+categorical__Pickup Location_Meerut,7.1e-05
+categorical__Pickup Location_Dwarka Mor,7.1e-05
+categorical__Drop Location_Lal Quila,7e-05
+categorical__Pickup Location_Khan Market,7e-05
+categorical__Drop Location_Vaishali,7e-05
+categorical__Drop Location_Sarai Kale Khan,7e-05
+categorical__Drop Location_Pragati Maidan,6.9e-05
+categorical__Pickup Location_Sarojini Nagar,6.9e-05
+categorical__Pickup Location_Malviya Nagar,6.9e-05
+categorical__Drop Location_Okhla,6.9e-05
+categorical__Drop Location_Qutub Minar,6.9e-05
+categorical__Drop Location_Vishwavidyalaya,6.9e-05
+categorical__Pickup Location_Shastri Nagar,6.7e-05
+categorical__Pickup Location_Rithala,6.7e-05
+categorical__Pickup Location_Central Secretariat,6.7e-05
+categorical__Pickup Location_Sarai Kale Khan,6.7e-05
+categorical__Drop Location_Chanakyapuri,6.6e-05
+categorical__Pickup Location_Paharganj,6.6e-05
+categorical__Drop Location_Peeragarhi,6.6e-05
+categorical__Drop Location_ITO,6.6e-05
+categorical__Pickup Location_Gurgaon Sector 56,6.5e-05
+categorical__Pickup Location_Ramesh Nagar,6.5e-05
+categorical__Drop Location_Karkarduma,6.5e-05
+categorical__Drop Location_Saket,6.5e-05
+categorical__Drop Location_Hero Honda Chowk,6.5e-05
+categorical__Drop Location_Janakpuri,6.5e-05
+categorical__Pickup Location_Chanakyapuri,6.4e-05
+categorical__Pickup Location_Shahdara,6.4e-05
+categorical__Drop Location_Welcome,6.4e-05
+categorical__Drop Location_Rajiv Chowk,6.4e-05
+categorical__Pickup Location_Lajpat Nagar,6.4e-05
+categorical__Drop Location_Ashok Park Main,6.4e-05
+categorical__Pickup Location_RK Puram,6.3e-05
+categorical__Drop Location_Mundka,6.2e-05
+categorical__Pickup Location_Qutub Minar,6.2e-05
+categorical__Pickup Location_South Extension,6.2e-05
+categorical__Pickup Location_Jhilmil,6.2e-05
+categorical__Pickup Location_Connaught Place,6.2e-05
+categorical__Pickup Location_Model Town,6.2e-05
+categorical__Pickup Location_Rohini,6.1e-05
+categorical__Drop Location_Indraprastha,6.1e-05
+categorical__Drop Location_Model Town,6.1e-05
+categorical__Pickup Location_Seelampur,6.1e-05
+categorical__Drop Location_Nirman Vihar,6.1e-05
+categorical__Pickup Location_Raj Nagar Extension,6.1e-05
+categorical__Drop Location_Satguru Ram Singh Marg,6.1e-05
+categorical__Pickup Location_Badarpur,6.1e-05
+categorical__Pickup Location_Greater Kailash,6.1e-05
+categorical__Pickup Location_Bhiwadi,6.1e-05
+categorical__Drop Location_Saidulajab,6.1e-05
+categorical__Drop Location_Hauz Rani,6.1e-05
+categorical__Pickup Location_Gwal Pahari,6.1e-05
+categorical__Pickup Location_Green Park,6e-05
+categorical__Drop Location_Bahadurgarh,6e-05
+categorical__Drop Location_Ghitorni Village,5.9e-05
+categorical__Pickup Location_Palam Vihar,5.9e-05
+categorical__Drop Location_Adarsh Nagar,5.9e-05
+categorical__Drop Location_Kashmere Gate ISBT,5.9e-05
+categorical__Drop Location_Chandni Chowk,5.9e-05
+categorical__Pickup Location_Nirman Vihar,5.9e-05
+categorical__Pickup Location_Noida Sector 18,5.8e-05
+categorical__Pickup Location_Hauz Khas,5.8e-05
+categorical__Drop Location_Laxmi Nagar,5.7e-05
+categorical__Pickup Location_ITO,5.7e-05
+categorical__Drop Location_Gurgaon Sector 56,5.7e-05
+categorical__Drop Location_Sushant Lok,5.6e-05
+categorical__Pickup Location_Ghitorni,5.6e-05
+categorical__Drop Location_Rajouri Garden,5.6e-05
+categorical__Pickup Location_INA Market,5.6e-05
+categorical__Drop Location_Nawada,5.6e-05
+categorical__Pickup Location_Inderlok,5.5e-05
+categorical__Pickup Location_India Gate,5.5e-05
+categorical__Drop Location_Rajiv Nagar,5.4e-05
+categorical__Drop Location_Arjangarh,5.4e-05
+categorical__Drop Location_Maidan Garhi,5.4e-05
+categorical__Drop Location_Karol Bagh,5.4e-05
+categorical__Drop Location_Kadarpur,5.3e-05
+categorical__Drop Location_Ardee City,5.1e-05
+categorical__Pickup Location_New Delhi Railway Station,5.1e-05
+categorical__Pickup Location_Rohini West,5.1e-05
+categorical__Pickup Location_Kashmere Gate,4.8e-05
+categorical__Pickup Location_Shastri Park,4.7e-05
+categorical__Drop Location_Rohini East,4.5e-05
+categorical__Pickup Location_Kherki Daula Toll,4.4e-05
+categorical__Pickup Location_Sikanderpur,4.2e-05
+categorical__Drop Location_Faridabad Sector 15,4.2e-05
+categorical__Pickup Location_Noida Extension,3.9e-05
+categorical__Drop Location_Palam Vihar,3.5e-05

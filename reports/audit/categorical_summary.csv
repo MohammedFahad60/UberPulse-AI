@@ -1,0 +1,13 @@
+,Column,Unique Values,Missing
+0,Date,365,0
+1,Time,62910,0
+2,Booking ID,148767,0
+3,Booking Status,5,0
+4,Customer ID,148788,0
+5,Vehicle Type,7,0
+6,Pickup Location,176,0
+7,Drop Location,176,0
+8,Reason for cancelling by Customer,5,139500
+9,Driver Cancellation Reason,4,123000
+10,Incomplete Rides Reason,3,141000
+11,Payment Method,5,48000

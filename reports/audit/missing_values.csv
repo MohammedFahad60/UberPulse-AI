@@ -1,0 +1,22 @@
+,Missing Count,Missing %
+Incomplete Rides Reason,141000,94.0
+Incomplete Rides,141000,94.0
+Cancelled Rides by Customer,139500,93.0
+Reason for cancelling by Customer,139500,93.0
+Driver Cancellation Reason,123000,82.0
+Cancelled Rides by Driver,123000,82.0
+Customer Rating,57000,38.0
+Driver Ratings,57000,38.0
+Ride Distance,48000,32.0
+Booking Value,48000,32.0
+Payment Method,48000,32.0
+Avg CTAT,48000,32.0
+Avg VTAT,10500,7.0
+Time,0,0.0
+Drop Location,0,0.0
+Pickup Location,0,0.0
+Vehicle Type,0,0.0
+Customer ID,0,0.0
+Booking Status,0,0.0
+Booking ID,0,0.0
+Date,0,0.0

@@ -1,0 +1,10 @@
+,Column,Negative Count,Zero Count,Missing Count
+0,Avg VTAT,0,0,10500
+1,Avg CTAT,0,0,48000
+2,Cancelled Rides by Customer,0,0,139500
+3,Cancelled Rides by Driver,0,0,123000
+4,Incomplete Rides,0,0,141000
+5,Booking Value,0,0,48000
+6,Ride Distance,0,0,48000
+7,Driver Ratings,0,0,57000
+8,Customer Rating,0,0,57000

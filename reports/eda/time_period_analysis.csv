@@ -1,0 +1,6 @@
+Time_Period,Bookings,Completed,Cancelled,Revenue,Completion_Rate,Cancellation_Rate
+Afternoon,37342,23051,9416,11649572.0,61.73,25.22
+Evening,44118,27280,11083,13861748.0,61.83,25.12
+Late Evening,16306,10182,4036,5213191.0,62.44,24.75
+Morning,42672,26543,10555,13531368.0,62.2,24.74
+Night,9562,5944,2410,3004695.0,62.16,25.2

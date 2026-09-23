@@ -1,0 +1,6 @@
+Booking Status,Avg_VTAT,Avg_CTAT,Bookings
+Cancelled by Customer,12.51,,10500
+Cancelled by Driver,7.5,,27000
+Completed,8.51,30.03,93000
+Incomplete,6.01,20.0,9000
+No Driver Found,,,10500

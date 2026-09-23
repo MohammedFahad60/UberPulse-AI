@@ -1,0 +1,6 @@
+Payment Method,Bookings,Completed_Bookings,Revenue,Avg_Booking_Value,Booking_Percentage,Completion_Rate
+UPI,45909,41834,21274591.0,508.51,45.01,91.12
+Cash,25367,23114,11756071.0,508.36,24.87,91.12
+Uber Wallet,12276,11206,5669070.0,505.12,12.04,91.28
+Credit Card,10209,9320,4753767.0,511.71,10.01,91.29
+Debit Card,8239,7526,3807075.0,507.41,8.08,91.35

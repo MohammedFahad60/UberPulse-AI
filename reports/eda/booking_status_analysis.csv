@@ -1,0 +1,6 @@
+Booking Status,Bookings,Revenue,Avg_Booking_Value,Avg_Ride_Distance,Booking_Percentage
+Cancelled by Customer,10500,0.0,,,7.0
+Cancelled by Driver,27000,0.0,,,18.0
+Completed,93000,47260574.0,508.18,26.0,62.0
+Incomplete,9000,0.0,509.51,10.55,6.0
+No Driver Found,10500,0.0,,,7.0

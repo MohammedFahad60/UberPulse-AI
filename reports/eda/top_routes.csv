@@ -1,0 +1,21 @@
+Pickup Location,Drop Location,Bookings,Completed,Revenue,Route
+DLF City Court,Bhiwadi,17,13,5925.0,DLF City Court → Bhiwadi
+Janakpuri,Faridabad Sector 15,16,9,4248.0,Janakpuri → Faridabad Sector 15
+Akshardham,RK Puram,16,7,4207.0,Akshardham → RK Puram
+Rithala,Udyog Vihar Phase 4,15,11,6325.0,Rithala → Udyog Vihar Phase 4
+Ghaziabad,Badshahpur,15,6,2538.0,Ghaziabad → Badshahpur
+Vatika Chowk,Rithala,15,9,3277.0,Vatika Chowk → Rithala
+Jor Bagh,Rohini East,15,7,1457.0,Jor Bagh → Rohini East
+South Extension,Gwal Pahari,14,10,2777.0,South Extension → Gwal Pahari
+Mayur Vihar,Vidhan Sabha,14,10,5058.0,Mayur Vihar → Vidhan Sabha
+Connaught Place,Paharganj,14,9,4766.0,Connaught Place → Paharganj
+Vaishali,IIT Delhi,14,9,5365.0,Vaishali → IIT Delhi
+New Delhi Railway Station,Shahdara,14,9,5267.0,New Delhi Railway Station → Shahdara
+Rohini West,Sohna Road,14,13,6204.0,Rohini West → Sohna Road
+Subhash Nagar,Basai Dhankot,14,8,3901.0,Subhash Nagar → Basai Dhankot
+Kashmere Gate ISBT,Tilak Nagar,14,7,1835.0,Kashmere Gate ISBT → Tilak Nagar
+Indirapuram,Vaishali,14,8,2822.0,Indirapuram → Vaishali
+Chirag Delhi,Noida Film City,14,7,2973.0,Chirag Delhi → Noida Film City
+Sarai Kale Khan,Rohini,13,7,4561.0,Sarai Kale Khan → Rohini
+Sikanderpur,Kherki Daula Toll,13,6,2260.0,Sikanderpur → Kherki Daula Toll
+Noida Extension,Karol Bagh,13,4,2902.0,Noida Extension → Karol Bagh

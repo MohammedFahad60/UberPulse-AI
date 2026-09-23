@@ -1,0 +1,10 @@
+column,rule,invalid_values
+Avg VTAT,Must be >= 0,0
+Avg CTAT,Must be >= 0,0
+Booking Value,Must be >= 0,0
+Ride Distance,Must be >= 0,0
+Driver Ratings,Must be between 0 and 5,0
+Customer Rating,Must be between 0 and 5,0
+Cancelled Rides by Customer,Must be 0 or 1,0
+Cancelled Rides by Driver,Must be 0 or 1,0
+Incomplete Rides,Must be 0 or 1,0

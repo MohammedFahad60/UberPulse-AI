@@ -1,0 +1,18 @@
+{
+    "input_file": "D:\\Study Material\\Virtual Internships\\Data Analytics with AI\\UberPulse-AI\\data\\raw\\ncr_ride_bookings.csv",
+    "output_file": "D:\\Study Material\\Virtual Internships\\Data Analytics with AI\\UberPulse-AI\\data\\processed\\uberpulse_cleaned.csv",
+    "original_rows": 150000,
+    "final_rows": 150000,
+    "original_columns": 21,
+    "final_columns": 45,
+    "exact_duplicate_rows_removed": 0,
+    "duplicate_booking_ids_found": 1224,
+    "rows_with_duplicate_booking_ids": 2457,
+    "invalid_datetime_rows_removed": 0,
+    "missing_values_remaining": 1180500,
+    "completed_bookings": 93000,
+    "cancelled_bookings": 37500,
+    "incomplete_bookings": 9000,
+    "no_driver_found_bookings": 10500,
+    "total_revenue_completed_rides": 47260574.0
+}

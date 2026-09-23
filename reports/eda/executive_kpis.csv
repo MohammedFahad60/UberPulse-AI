@@ -1,0 +1,15 @@
+Metric,Value
+Total Bookings,150000.0
+Completed Bookings,93000.0
+Cancelled Bookings,37500.0
+Incomplete Bookings,9000.0
+No Driver Found,10500.0
+Completion Rate (%),62.0
+Cancellation Rate (%),25.0
+No Driver Found Rate (%),7.0
+Incomplete Rate (%),6.0
+Completed Ride Revenue,47260574.0
+Average Booking Value,508.18
+Average Ride Distance,26.0
+Average Driver Rating,4.23
+Average Customer Rating,4.4

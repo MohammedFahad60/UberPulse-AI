@@ -1,0 +1,688 @@
+{
+    "project": "UberPulse AI",
+    "title": "AI-Powered Ride-Hailing Analytics & Demand Intelligence",
+    "dataset": {
+        "rows": 150000,
+        "source_file": "ncr_ride_bookings.csv"
+    },
+    "executive_kpis": {
+        "total_bookings": 150000,
+        "completed_bookings": 93000,
+        "cancelled_bookings": 37500,
+        "incomplete_bookings": 9000,
+        "no_driver_found": 10500,
+        "completion_rate": 62.0,
+        "cancellation_rate": 25.0,
+        "incomplete_rate": 6.0,
+        "no_driver_found_rate": 7.0,
+        "completed_ride_revenue": 47260574.0,
+        "average_booking_value": 508.18,
+        "average_ride_distance": 26.0,
+        "average_driver_rating": 4.23,
+        "average_customer_rating": 4.4
+    },
+    "vehicle_insights": {
+        "highest_demand_vehicle": "Auto",
+        "highest_revenue_vehicle": "Auto",
+        "highest_completion_vehicle": "Uber XL",
+        "vehicle_summary": [
+            {
+                "Vehicle Type": "Auto",
+                "bookings": 37419,
+                "completed": 23155,
+                "cancelled": 9323,
+                "revenue": 12878422.0,
+                "completion_rate": 61.880328175525804,
+                "cancellation_rate": 24.915150057457442
+            },
+            {
+                "Vehicle Type": "Go Mini",
+                "bookings": 29806,
+                "completed": 18549,
+                "cancelled": 7427,
+                "revenue": 10338496.0,
+                "completion_rate": 62.23243642219687,
+                "cancellation_rate": 24.91780178487553
+            },
+            {
+                "Vehicle Type": "Go Sedan",
+                "bookings": 27141,
+                "completed": 16676,
+                "cancelled": 6863,
+                "revenue": 9369719.0,
+                "completion_rate": 61.442098669908994,
+                "cancellation_rate": 25.286466968792602
+            },
+            {
+                "Vehicle Type": "Bike",
+                "bookings": 22517,
+                "completed": 14034,
+                "cancelled": 5652,
+                "revenue": 7837697.0,
+                "completion_rate": 62.326242394635166,
+                "cancellation_rate": 25.101034773726518
+            },
+            {
+                "Vehicle Type": "Premier Sedan",
+                "bookings": 18111,
+                "completed": 11252,
+                "cancelled": 4516,
+                "revenue": 6275332.0,
+                "completion_rate": 62.12798851526696,
+                "cancellation_rate": 24.935122301363812
+            },
+            {
+                "Vehicle Type": "eBike",
+                "bookings": 10557,
+                "completed": 6551,
+                "cancelled": 2630,
+                "revenue": 3618485.0,
+                "completion_rate": 62.05361371601781,
+                "cancellation_rate": 24.91238041110164
+            },
+            {
+                "Vehicle Type": "Uber XL",
+                "bookings": 4449,
+                "completed": 2783,
+                "cancelled": 1089,
+                "revenue": 1528032.0,
+                "completion_rate": 62.55338278264778,
+                "cancellation_rate": 24.477410654079566
+            }
+        ]
+    },
+    "hourly_insights": {
+        "peak_hour": 18,
+        "peak_hour_bookings": 12397,
+        "highest_revenue_hour": 18,
+        "highest_hourly_revenue": 4268079.0,
+        "hourly_summary": [
+            {
+                "Hour": 0,
+                "bookings": 1373,
+                "completed": 858,
+                "cancelled": 340,
+                "revenue": 477304.0,
+                "completion_rate": 62.49089584850692,
+                "cancellation_rate": 24.763292061179897
+            },
+            {
+                "Hour": 1,
+                "bookings": 1360,
+                "completed": 828,
+                "cancelled": 344,
+                "revenue": 467167.0,
+                "completion_rate": 60.882352941176464,
+                "cancellation_rate": 25.294117647058822
+            },
+            {
+                "Hour": 2,
+                "bookings": 1339,
+                "completed": 853,
+                "cancelled": 297,
+                "revenue": 475840.0,
+                "completion_rate": 63.7042569081404,
+                "cancellation_rate": 22.180731889469754
+            },
+            {
+                "Hour": 3,
+                "bookings": 1383,
+                "completed": 860,
+                "cancelled": 355,
+                "revenue": 469813.0,
+                "completion_rate": 62.18365871294288,
+                "cancellation_rate": 25.668835864063627
+            },
+            {
+                "Hour": 4,
+                "bookings": 1321,
+                "completed": 830,
+                "cancelled": 338,
+                "revenue": 454992.0,
+                "completion_rate": 62.831188493565485,
+                "cancellation_rate": 25.58667676003028
+            },
+            {
+                "Hour": 5,
+                "bookings": 2786,
+                "completed": 1715,
+                "cancelled": 736,
+                "revenue": 930721.0,
+                "completion_rate": 61.55778894472361,
+                "cancellation_rate": 26.417803302225412
+            },
+            {
+                "Hour": 6,
+                "bookings": 4160,
+                "completed": 2609,
+                "cancelled": 1005,
+                "revenue": 1471059.0,
+                "completion_rate": 62.71634615384616,
+                "cancellation_rate": 24.158653846153847
+            },
+            {
+                "Hour": 7,
+                "bookings": 5450,
+                "completed": 3346,
+                "cancelled": 1382,
+                "revenue": 1851902.0,
+                "completion_rate": 61.394495412844044,
+                "cancellation_rate": 25.357798165137613
+            },
+            {
+                "Hour": 8,
+                "bookings": 6861,
+                "completed": 4267,
+                "cancelled": 1714,
+                "revenue": 2394391.0,
+                "completion_rate": 62.19210027692756,
+                "cancellation_rate": 24.981781081475006
+            },
+            {
+                "Hour": 9,
+                "bookings": 8234,
+                "completed": 5084,
+                "cancelled": 2051,
+                "revenue": 2891944.0,
+                "completion_rate": 61.743988341025016,
+                "cancellation_rate": 24.908914257954823
+            },
+            {
+                "Hour": 10,
+                "bookings": 9577,
+                "completed": 5983,
+                "cancelled": 2385,
+                "revenue": 3342593.0,
+                "completion_rate": 62.47259058160175,
+                "cancellation_rate": 24.903414430406183
+            },
+            {
+                "Hour": 11,
+                "bookings": 8390,
+                "completed": 5254,
+                "cancelled": 2018,
+                "revenue": 2905343.0,
+                "completion_rate": 62.62216924910607,
+                "cancellation_rate": 24.052443384982123
+            },
+            {
+                "Hour": 12,
+                "bookings": 7006,
+                "completed": 4338,
+                "cancelled": 1733,
+                "revenue": 2424257.0,
+                "completion_rate": 61.918355695118464,
+                "cancellation_rate": 24.735940622323724
+            },
+            {
+                "Hour": 13,
+                "bookings": 5470,
+                "completed": 3376,
+                "cancelled": 1381,
+                "revenue": 1858436.0,
+                "completion_rate": 61.71846435100549,
+                "cancellation_rate": 25.246800731261427
+            },
+            {
+                "Hour": 14,
+                "bookings": 7031,
+                "completed": 4310,
+                "cancelled": 1834,
+                "revenue": 2389385.0,
+                "completion_rate": 61.299957331816245,
+                "cancellation_rate": 26.084483003840138
+            },
+            {
+                "Hour": 15,
+                "bookings": 8202,
+                "completed": 5057,
+                "cancelled": 2106,
+                "revenue": 2818707.0,
+                "completion_rate": 61.65569373323579,
+                "cancellation_rate": 25.676664228237016
+            },
+            {
+                "Hour": 16,
+                "bookings": 9633,
+                "completed": 5970,
+                "cancelled": 2362,
+                "revenue": 3323600.0,
+                "completion_rate": 61.97446278417939,
+                "cancellation_rate": 24.519879580608325
+            },
+            {
+                "Hour": 17,
+                "bookings": 11044,
+                "completed": 6860,
+                "cancelled": 2749,
+                "revenue": 3857680.0,
+                "completion_rate": 62.11517566099239,
+                "cancellation_rate": 24.89134371604491
+            },
+            {
+                "Hour": 18,
+                "bookings": 12397,
+                "completed": 7617,
+                "cancelled": 3146,
+                "revenue": 4268079.0,
+                "completion_rate": 61.44228442365088,
+                "cancellation_rate": 25.377107364685003
+            },
+            {
+                "Hour": 19,
+                "bookings": 11047,
+                "completed": 6798,
+                "cancelled": 2820,
+                "revenue": 3714520.0,
+                "completion_rate": 61.537068887480764,
+                "cancellation_rate": 25.527292477595726
+            },
+            {
+                "Hour": 20,
+                "bookings": 9630,
+                "completed": 6005,
+                "cancelled": 2368,
+                "revenue": 3339546.0,
+                "completion_rate": 62.35721703011423,
+                "cancellation_rate": 24.58982346832814
+            },
+            {
+                "Hour": 21,
+                "bookings": 8103,
+                "completed": 5109,
+                "cancelled": 1943,
+                "revenue": 2887604.0,
+                "completion_rate": 63.050721954831545,
+                "cancellation_rate": 23.978773293841787
+            },
+            {
+                "Hour": 22,
+                "bookings": 5441,
+                "completed": 3351,
+                "cancelled": 1391,
+                "revenue": 1857020.0,
+                "completion_rate": 61.58794339275868,
+                "cancellation_rate": 25.565153464436683
+            },
+            {
+                "Hour": 23,
+                "bookings": 2762,
+                "completed": 1722,
+                "cancelled": 702,
+                "revenue": 974280.0,
+                "completion_rate": 62.34612599565532,
+                "cancellation_rate": 25.416364952932657
+            }
+        ]
+    },
+    "time_period_insights": {
+        "highest_demand_period": "Evening",
+        "period_summary": [
+            {
+                "Time_Period": "Afternoon",
+                "bookings": 37342,
+                "completed": 23051,
+                "cancelled": 9416,
+                "revenue": 12814385.0,
+                "completion_rate": 61.72941995608162,
+                "cancellation_rate": 25.21557495581383
+            },
+            {
+                "Time_Period": "Evening",
+                "bookings": 44118,
+                "completed": 27280,
+                "cancelled": 11083,
+                "revenue": 15179825.0,
+                "completion_rate": 61.834171993290724,
+                "cancellation_rate": 25.121265696541094
+            },
+            {
+                "Time_Period": "Late Evening",
+                "bookings": 16306,
+                "completed": 10182,
+                "cancelled": 4036,
+                "revenue": 5718904.0,
+                "completion_rate": 62.44327241506195,
+                "cancellation_rate": 24.75162516864958
+            },
+            {
+                "Time_Period": "Morning",
+                "bookings": 42672,
+                "completed": 26543,
+                "cancelled": 10555,
+                "revenue": 14857232.0,
+                "completion_rate": 62.202380952380956,
+                "cancellation_rate": 24.735189351331083
+            },
+            {
+                "Time_Period": "Night",
+                "bookings": 9562,
+                "completed": 5944,
+                "cancelled": 2410,
+                "revenue": 3275837.0,
+                "completion_rate": 62.16272746287388,
+                "cancellation_rate": 25.20393223175068
+            }
+        ]
+    },
+    "location_insights": {
+        "highest_demand_pickup": "Khandsa",
+        "highest_demand_pickup_bookings": 949,
+        "top_pickup_locations": [
+            {
+                "Pickup Location": "Khandsa",
+                "bookings": 949,
+                "completed": 600,
+                "cancelled": 226,
+                "revenue": 338502.0,
+                "completion_rate": 63.224446786090624,
+                "cancellation_rate": 23.814541622760803
+            },
+            {
+                "Pickup Location": "Barakhamba Road",
+                "bookings": 946,
+                "completed": 594,
+                "cancelled": 230,
+                "revenue": 341154.0,
+                "completion_rate": 62.7906976744186,
+                "cancellation_rate": 24.312896405919663
+            },
+            {
+                "Pickup Location": "Saket",
+                "bookings": 931,
+                "completed": 557,
+                "cancelled": 249,
+                "revenue": 292470.0,
+                "completion_rate": 59.828141783029,
+                "cancellation_rate": 26.745435016111706
+            },
+            {
+                "Pickup Location": "Badarpur",
+                "bookings": 921,
+                "completed": 567,
+                "cancelled": 231,
+                "revenue": 327193.0,
+                "completion_rate": 61.563517915309454,
+                "cancellation_rate": 25.0814332247557
+            },
+            {
+                "Pickup Location": "Pragati Maidan",
+                "bookings": 920,
+                "completed": 538,
+                "cancelled": 248,
+                "revenue": 303314.0,
+                "completion_rate": 58.47826086956521,
+                "cancellation_rate": 26.956521739130434
+            },
+            {
+                "Pickup Location": "Madipur",
+                "bookings": 919,
+                "completed": 579,
+                "cancelled": 212,
+                "revenue": 320235.0,
+                "completion_rate": 63.003264417845486,
+                "cancellation_rate": 23.06855277475517
+            },
+            {
+                "Pickup Location": "AIIMS",
+                "bookings": 918,
+                "completed": 562,
+                "cancelled": 236,
+                "revenue": 325733.0,
+                "completion_rate": 61.22004357298475,
+                "cancellation_rate": 25.70806100217865
+            },
+            {
+                "Pickup Location": "Mehrauli",
+                "bookings": 915,
+                "completed": 574,
+                "cancelled": 224,
+                "revenue": 300668.0,
+                "completion_rate": 62.732240437158474,
+                "cancellation_rate": 24.48087431693989
+            },
+            {
+                "Pickup Location": "Dwarka Sector 21",
+                "bookings": 914,
+                "completed": 565,
+                "cancelled": 227,
+                "revenue": 316045.0,
+                "completion_rate": 61.816192560175054,
+                "cancellation_rate": 24.835886214442013
+            },
+            {
+                "Pickup Location": "Pataudi Chowk",
+                "bookings": 907,
+                "completed": 556,
+                "cancelled": 215,
+                "revenue": 328572.0,
+                "completion_rate": 61.300992282249176,
+                "cancellation_rate": 23.7045203969129
+            }
+        ]
+    },
+    "route_insights": {
+        "highest_volume_route": "DLF City Court → Bhiwadi",
+        "highest_volume_route_bookings": 17,
+        "top_routes": [
+            {
+                "Route": "DLF City Court → Bhiwadi",
+                "bookings": 17,
+                "completed": 13,
+                "revenue": 6009.0,
+                "completion_rate": 76.47058823529412
+            },
+            {
+                "Route": "Janakpuri → Faridabad Sector 15",
+                "bookings": 16,
+                "completed": 9,
+                "revenue": 5068.0,
+                "completion_rate": 56.25
+            },
+            {
+                "Route": "Akshardham → RK Puram",
+                "bookings": 16,
+                "completed": 7,
+                "revenue": 5029.0,
+                "completion_rate": 43.75
+            },
+            {
+                "Route": "Jor Bagh → Rohini East",
+                "bookings": 15,
+                "completed": 7,
+                "revenue": 1713.0,
+                "completion_rate": 46.666666666666664
+            },
+            {
+                "Route": "Rithala → Udyog Vihar Phase 4",
+                "bookings": 15,
+                "completed": 11,
+                "revenue": 6325.0,
+                "completion_rate": 73.33333333333333
+            },
+            {
+                "Route": "Ghaziabad → Badshahpur",
+                "bookings": 15,
+                "completed": 6,
+                "revenue": 3439.0,
+                "completion_rate": 40.0
+            },
+            {
+                "Route": "Vatika Chowk → Rithala",
+                "bookings": 15,
+                "completed": 9,
+                "revenue": 3277.0,
+                "completion_rate": 60.0
+            },
+            {
+                "Route": "Mayur Vihar → Vidhan Sabha",
+                "bookings": 14,
+                "completed": 10,
+                "revenue": 5058.0,
+                "completion_rate": 71.42857142857143
+            },
+            {
+                "Route": "Kashmere Gate ISBT → Tilak Nagar",
+                "bookings": 14,
+                "completed": 7,
+                "revenue": 2877.0,
+                "completion_rate": 50.0
+            },
+            {
+                "Route": "Vaishali → IIT Delhi",
+                "bookings": 14,
+                "completed": 9,
+                "revenue": 6450.0,
+                "completion_rate": 64.28571428571429
+            }
+        ]
+    },
+    "payment_insights": {
+        "most_used_payment_method": "UPI",
+        "most_used_payment_bookings": 45909,
+        "payment_summary": [
+            {
+                "Payment Method": "Cash",
+                "bookings": 25367,
+                "completed": 23114,
+                "revenue": 12895649.0,
+                "completion_rate": 91.11838215003745
+            },
+            {
+                "Payment Method": "Credit Card",
+                "bookings": 10209,
+                "completed": 9320,
+                "revenue": 5224025.0,
+                "completion_rate": 91.29199725732197
+            },
+            {
+                "Payment Method": "Debit Card",
+                "bookings": 8239,
+                "completed": 7526,
+                "revenue": 4180510.0,
+                "completion_rate": 91.34603714042966
+            },
+            {
+                "Payment Method": "UPI",
+                "bookings": 45909,
+                "completed": 41834,
+                "revenue": 23345101.0,
+                "completion_rate": 91.12374479949466
+            },
+            {
+                "Payment Method": "Uber Wallet",
+                "bookings": 12276,
+                "completed": 11206,
+                "revenue": 6200898.0,
+                "completion_rate": 91.28380579993484
+            }
+        ]
+    },
+    "cancellation_insights": {
+        "total_cancelled": 37500,
+        "driver_cancellation_count": 27000,
+        "customer_cancellation_count": 10500,
+        "top_driver_cancellation_reasons": {
+            "Customer related issue": 6837,
+            "The customer was coughing/sick": 6751,
+            "Personal & Car related issues": 6726,
+            "More than permitted people in there": 6686
+        },
+        "top_customer_cancellation_reasons": {
+            "Wrong Address": 2362,
+            "Change of plans": 2353,
+            "Driver is not moving towards pickup location": 2335,
+            "Driver asked to cancel": 2295,
+            "AC is not working": 1155
+        }
+    },
+    "incomplete_insights": {
+        "total_incomplete": 9000,
+        "top_incomplete_reasons": {
+            "Customer Demand": 3040,
+            "Vehicle Breakdown": 3012,
+            "Other Issue": 2948
+        }
+    },
+    "rating_insights": {
+        "average_driver_rating": 4.23,
+        "average_customer_rating": 4.4,
+        "driver_rating_min": 3.0,
+        "driver_rating_max": 5.0,
+        "customer_rating_min": 3.0,
+        "customer_rating_max": 5.0
+    },
+    "revenue_insights": {
+        "completed_ride_revenue": 47260574.0,
+        "average_completed_booking_value": 508.18,
+        "average_completed_ride_distance": 26.0,
+        "top_revenue_vehicle": "Auto"
+    },
+    "ai_insights": {
+        "model_metrics": {
+            "Metric": "Accuracy",
+            "Score": 0.6847666666666666
+        },
+        "top_predictive_features": [
+            {
+                "feature": "categorical__Payment Method_UPI",
+                "importance": 0.436026
+            },
+            {
+                "feature": "categorical__Payment Method_Cash",
+                "importance": 0.225024
+            },
+            {
+                "feature": "categorical__Payment Method_Credit Card",
+                "importance": 0.105544
+            },
+            {
+                "feature": "categorical__Payment Method_Uber Wallet",
+                "importance": 0.099933
+            },
+            {
+                "feature": "categorical__Payment Method_Debit Card",
+                "importance": 0.084129
+            },
+            {
+                "feature": "numeric__Hour",
+                "importance": 0.003232
+            },
+            {
+                "feature": "numeric__Day_of_Week",
+                "importance": 0.002083
+            },
+            {
+                "feature": "categorical__Vehicle Type_Auto",
+                "importance": 0.0008
+            },
+            {
+                "feature": "categorical__Pickup Location_Vinobapuri",
+                "importance": 0.000787
+            },
+            {
+                "feature": "categorical__Vehicle Type_Go Sedan",
+                "importance": 0.000772
+            }
+        ]
+    },
+    "key_findings": [
+        "The dataset contains 150,000 bookings, with 93,000 completed rides and a 62.00% completion rate.",
+        "37,500 bookings were cancelled, representing 25.00% of all bookings.",
+        "10,500 bookings had no driver found, representing 7.00% of total bookings.",
+        "Completed rides generated approximately 47,260,574 in booking value.",
+        "The highest booking volume occurs at hour 18:00.",
+        "The highest-demand vehicle category is Auto.",
+        "The highest-volume pickup location is Khandsa.",
+        "The most frequently used payment method is UPI."
+    ],
+    "recommendations": [
+        "Use peak-hour demand patterns to plan driver availability and reduce unserved booking requests.",
+        "Monitor locations with high booking volumes and elevated cancellation or no-driver-found rates for targeted supply allocation.",
+        "Investigate the most frequent driver and customer cancellation reasons separately because their operational causes differ.",
+        "Use vehicle-level completion and cancellation metrics to understand where different vehicle categories perform differently.",
+        "Use payment-method patterns as an input to pre-booking outcome prediction and operational monitoring.",
+        "Use the pre-booking AI model as a decision-support tool rather than treating predictions as guaranteed outcomes.",
+        "Continuously evaluate model performance on newer booking data before using predictions for operational decisions."
+    ]
+}
