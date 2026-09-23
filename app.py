@@ -35,76 +35,6 @@ st.set_page_config(
 
 
 # ============================================================
-# CUSTOM CSS
-# ============================================================
-
-st.markdown(
-    """
-    <style>
-
-    .main {
-        padding-top: 1rem;
-    }
-
-    .block-container {
-        padding-top: 1.5rem;
-        padding-bottom: 3rem;
-    }
-
-    .hero {
-        padding: 1.5rem 2rem;
-        border-radius: 18px;
-        margin-bottom: 1.5rem;
-        border: 1px solid rgba(128,128,128,0.2);
-        background: linear-gradient(
-            135deg,
-            rgba(255,193,7,0.14),
-            rgba(0,0,0,0.04)
-        );
-    }
-
-    .hero-title {
-        font-size: 2.5rem;
-        font-weight: 800;
-        margin-bottom: 0.25rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.05rem;
-        opacity: 0.75;
-    }
-
-    .section-title {
-        font-size: 1.45rem;
-        font-weight: 700;
-        margin-top: 1rem;
-        margin-bottom: 0.75rem;
-    }
-
-    .insight-box {
-        padding: 1rem 1.2rem;
-        border-radius: 12px;
-        border: 1px solid rgba(128,128,128,0.22);
-        margin-bottom: 0.7rem;
-    }
-
-    .metric-label {
-        font-size: 0.85rem;
-        opacity: 0.7;
-    }
-
-    .metric-value {
-        font-size: 1.55rem;
-        font-weight: 750;
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
-# ============================================================
 # LOAD DATA
 # ============================================================
 
@@ -207,16 +137,50 @@ if df.empty:
 st.markdown(
     """
     <div class="hero">
-
-        <div class="hero-title">
-            🚕 UberPulse AI
-        </div>
-
+        <div class="hero-title">🚕 UberPulse AI</div>
         <div class="hero-subtitle">
             AI-Powered Ride-Hailing Analytics & Demand Intelligence
         </div>
-
     </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    """
+    <style>
+    .main {
+        padding-top: 1rem;
+    }
+
+    .block-container {
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero {
+        padding: 1.5rem 2rem;
+        border-radius: 18px;
+        margin-bottom: 1.5rem;
+        border: 1px solid rgba(128,128,128,0.2);
+        background: linear-gradient(
+            135deg,
+            rgba(255,193,7,0.14),
+            rgba(0,0,0,0.04)
+        );
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 0.25rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.05rem;
+        opacity: 0.75;
+    }
+    </style>
     """,
     unsafe_allow_html=True,
 )
