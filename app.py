@@ -897,24 +897,38 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 ccol1, ccol2 = st.columns(2)
 
 
+# ------------------------------------------------------------
+# DRIVER CANCELLATION REASONS
+# ------------------------------------------------------------
+
 with ccol1:
 
-    if "Driver Cancellation Reason" in filtered_df.columns:
+    driver_data = filtered_df[
+        filtered_df["Booking Status"].astype(str).str.strip()
+        == "Cancelled by Driver"
+    ].copy()
 
-        driver_cancel = (
-            filtered_df[
-                filtered_df["Booking Status"]
-                == "Cancelled by Driver"
-            ]["Driver Cancellation Reason"]
-            .dropna()
-            .value_counts()
-            .head(10)
-            .reset_index()
-        )
+    driver_data["Driver Cancellation Reason"] = (
+        driver_data["Driver Cancellation Reason"]
+        .astype("string")
+        .str.strip()
+    )
+
+    driver_cancel = (
+        driver_data[
+            driver_data["Driver Cancellation Reason"].notna()
+            & (driver_data["Driver Cancellation Reason"] != "")
+            & (driver_data["Driver Cancellation Reason"].str.lower() != "nan")
+        ]["Driver Cancellation Reason"]
+        .value_counts()
+        .head(10)
+        .reset_index()
+    )
+
+    if not driver_cancel.empty:
 
         driver_cancel.columns = [
             "Reason",
@@ -930,26 +944,55 @@ with ccol1:
             text_auto=True,
         )
 
+        fig.update_layout(
+            margin=dict(l=10, r=10, t=50, b=10),
+            height=400
+        )
+
         st.plotly_chart(
             fig,
             width="stretch"
         )
 
+    else:
+        st.info(
+            "No driver cancellation reasons available "
+            "for the current filters."
+        )
+
+
+# ------------------------------------------------------------
+# CUSTOMER CANCELLATION REASONS
+# ------------------------------------------------------------
 
 with ccol2:
 
-    if "Reason for cancelling by Customer" in filtered_df.columns:
+    customer_data = filtered_df[
+        filtered_df["Booking Status"].astype(str).str.strip()
+        == "Cancelled by Customer"
+    ].copy()
 
-        customer_cancel = (
-            filtered_df[
-                filtered_df["Booking Status"]
-                == "Cancelled by Customer"
-            ]["Reason for cancelling by Customer"]
-            .dropna()
-            .value_counts()
-            .head(10)
-            .reset_index()
-        )
+    customer_data["Reason for cancelling by Customer"] = (
+        customer_data["Reason for cancelling by Customer"]
+        .astype("string")
+        .str.strip()
+    )
+
+    customer_cancel = (
+        customer_data[
+            customer_data["Reason for cancelling by Customer"].notna()
+            & (customer_data["Reason for cancelling by Customer"] != "")
+            & (
+                customer_data["Reason for cancelling by Customer"].str.lower()
+                != "nan"
+            )
+        ]["Reason for cancelling by Customer"]
+        .value_counts()
+        .head(10)
+        .reset_index()
+    )
+
+    if not customer_cancel.empty:
 
         customer_cancel.columns = [
             "Reason",
@@ -965,10 +1008,22 @@ with ccol2:
             text_auto=True,
         )
 
+        fig.update_layout(
+            margin=dict(l=10, r=10, t=50, b=10),
+            height=400
+        )
+
         st.plotly_chart(
             fig,
             width="stretch"
         )
+
+    else:
+        st.info(
+            "No customer cancellation reasons available "
+            "for the current filters."
+        )
+
 
 
 # ============================================================
