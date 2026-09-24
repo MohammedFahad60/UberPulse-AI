@@ -866,13 +866,13 @@ Data Analytics with AI
 The complete source code, dashboard, analytical scripts, model, and documentation are available in the project repository.
 
 ```text
-<YOUR_GITHUB_REPOSITORY_URL>
+https://github.com/MohammedFahad60/UberPulse-AI
 ```
 
 ## Live Dashboard
 
 ```text
-<YOUR_STREAMLIT_APP_URL>
+https://uberpulse-ai-data.streamlit.app/
 ```
 
 ## Dataset
